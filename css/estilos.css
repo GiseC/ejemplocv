@@ -1,0 +1,34 @@
+/*------general------*/
+ul {
+    list-style-type: none;
+}
+
+
+/*----aside ----*/
+aside {
+    background-color: #492d49;
+}
+
+aside * {
+    color: white;
+}
+#perfilimg img{
+    border-radius: 50%;
+}
+
+aside h2 {
+    text-transform: uppercase;
+}
+
+aside section h2:first-child {
+    border-bottom: 2px solid white;
+}
+
+/*-------main--------*/
+.hero{
+    background-color: #87555c;
+}
+.hero h2{
+    color: white;
+    border-top: 2px solid white;
+}
