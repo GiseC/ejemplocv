@@ -3,6 +3,10 @@ ul {
     list-style-type: none;
 }
 
+.clear {
+    clear: both;
+}
+
 .main-container {
     display: flex;
     width: 1200px;
@@ -12,7 +16,7 @@ ul {
 /*----aside ----*/
 aside {
     background-color: #492d49;
-    width: 30%;
+    width: 40%;
     margin-right: 3%;
 }
 
@@ -69,4 +73,28 @@ list-style-type: disc;
 }
 .references article {
     width: 50%;
+}
+/*--------------dl--------------*/
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+dt, 
+dd {
+    line-height: 1.5em;
+    border-top: 1px solid white;
+    flex-basis: 48%;
+    margin: 0;
+}
+
+
+dt:last-of-type, 
+dd:last-of-type {
+    border-bottom: 1px solid white;
+}
+
+dt {
+    font-weight: bold;
 }
