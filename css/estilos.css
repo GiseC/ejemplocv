@@ -44,23 +44,33 @@ main section > h2 {
 .hero{
     background-color: #87555c;
     box-shadow: 2px 2px 40px 2px #492d49 inset;
+    padding: 8% 0;
+    text-align: center;
 }
 .hero h2{
     color: white;
     border-top: 2px solid white;
     text-transform: none;
+    letter-spacing: 10px;
 }
 
-.aboutme {
+.hero h1 {
+    letter-spacing: 5px;
+}
+
+.aboutme p {
+    line-height: 2em;
     background-color: #d1b68d;
+    padding: 8px;
 }
-
-.aboutme h2 {
-    background-color: white;
 }
 
 article h3 , article h4 {
     font-weight: bold;
+}
+
+h1, h2 {
+    text-transform: uppercase;
 }
 
 article ul {
@@ -70,10 +80,13 @@ list-style-type: disc;
 .references {
     display: flex;
     flex-wrap: wrap;
+    background-color: #d1b68d;
+
 }
 .references article {
     width: 50%;
 }
+
 /*--------------dl--------------*/
 
 dl {
@@ -97,4 +110,10 @@ dd:last-of-type {
 
 dt {
     font-weight: bold;
+}
+/*-----------skills-----*/
+
+meter {
+    display: block;
+    width: 80%;
 }
