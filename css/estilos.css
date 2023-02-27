@@ -213,6 +213,7 @@ article figure figcaption {
 
     .references {
         display: block;
+       
         
     }
     .references article {
@@ -220,4 +221,7 @@ article figure figcaption {
         
     }
     
+    .hero {
+        display: block;
+    }
 }
