@@ -209,6 +209,7 @@ article figure figcaption {
 @media screen and (max-width:570px) {
     .main-container {
         display: block;
+        flex-direction: column;
     }
 
     .references {
@@ -223,5 +224,6 @@ article figure figcaption {
     
     .hero {
         display: block;
+
     }
 }
