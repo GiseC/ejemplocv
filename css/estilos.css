@@ -119,6 +119,7 @@ h2 {
     line-height: 2em;
     background-color: #d1b68d;
     padding: 8px;
+    text-align: justify;
 }
 
 
@@ -202,4 +203,21 @@ article figure figcaption {
 .parrafo p {
     text-align: center;
     height: 10px;
+}
+
+/*-----responsive----*/
+@media screen and (max-width:600px) {
+    .main-container {
+        display: block;
+    }
+
+    .references {
+        display: block;
+        
+    }
+    .references article {
+        padding-top: 10px;
+        
+    }
+    
 }
