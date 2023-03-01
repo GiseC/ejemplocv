@@ -13,17 +13,19 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="barra">
             <ul>
                 <li><a class="active" href="#inicio">Inicio</a></li>
                 <li><a href="#contactos">Redes sociales</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#referencia">Referencias</a></li>
+                
               </ul>
+              
         </nav>
     </header>
     <div class="main-container">
-    <aside>
+    <aside id="costado">
         <figure id="perfilimg">
             <img src="img/perfil.jpg" alt="Tammy Gonzalez">
             <figcaption>Tammy Gonzalez</figcaption>
@@ -149,10 +151,12 @@
         <section class="hero" id="inicio">
             <h1>TAMMY GONZALEZ</h1>
             <H2>Lead software engineer</H2>
+            <button type="button" id="boton_color">Cambiar color</button>
+            <button type="button" id="boton_color2">Reestablecer color</button>
         </section>
-        <section class="aboutme">
+        <section class="aboutme" id="aboutme">
             <h2>about me</h2>
-            <p>Soy Tammy Gonzalez, Analista de sistemas, y me dedico al desarrollo web, si bien por el momento me dedico a full stack, mi pasión es el backend. Actualmente estoy incursionando en el armado de un portfolio para demostrar mis habilidades.<br>
+            <p id="descripcion">Soy Tammy Gonzalez, Analista de sistemas, y me dedico al desarrollo web, si bien por el momento me dedico a full stack, mi pasión es el backend. Actualmente estoy incursionando en el armado de un portfolio para demostrar mis habilidades.<br>
             Al comenzar en este emocionante mundo IT (Information Technology), he descubierto mi vocación, por lo que me gustaría empezar y ganar experiencia.<br>
             Hasta el momento en mi actual trabajo he logrado perfeccionar habilidades como el trabajo en equipo, o la tolerancia al trabajo bajo presión, acompañando felizmente cada cambio en el mismo.</p>
         </section>
@@ -209,7 +213,7 @@
         <section id="referencia">
             <h2>referencias</h2>
             <div class="references">
-        <article class="parrafo">
+        <article class="parrafo" id="parrafo">
             <figure>
                 <img src="img/persona1.jpg" alt="referencia1">
                 <figcaption>María Camps</figcaption>
@@ -217,7 +221,7 @@
             <p>261-2591568</p>
             <p>mariacamps@gmail.com</p>
         </article>
-        <article class="parrafo">
+        <article class="parrafo" id="parrafo">
             <figure>
                 <img src="img/persona2.jpg" alt="referencia1">
                 <figcaption>Roberto Jerez</figcaption>
@@ -225,7 +229,7 @@
             <p>11-5698552</p>
             <p>Robjerez@gmail.com</p>
         </article>
-        <article class="parrafo">
+        <article class="parrafo" id="parrafo">
             <figure>
                 <img src="img/persona3.jpg" alt="referencia1">
                 <figcaption>Sonia Gimenez</figcaption>
@@ -233,7 +237,7 @@
             <p>388-4597778</p>
             <p>Soniagimenez4@gmail.com</p>
         </article>
-        <article class="parrafo">
+        <article class="parrafo" id="parrafo">
             <figure>
                 <img src="img/persona4.jpg" alt="referencia1">
                 <figcaption>Raúl Perez</figcaption>
@@ -246,5 +250,6 @@
 
     </main>
     </div>
+    <script src="/color.js"></script>
 </body>
 </html>
